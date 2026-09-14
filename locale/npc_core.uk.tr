@@ -1,0 +1,231 @@
+# textdomain: npc_core
+
+# ---------- Entity ----------
+Don't hit me!=Не бий мене!
+
+# ---------- Spawn ----------
+Player not found=Гравця не знайдено
+Def not specified=Def не вказано
+Def not found: @1=Def не знайдено: @1
+Place occupied by another NPC=Місце зайняте іншим NPC
+Failed to create entity=Не вдалося створити entity
+
+# ---------- Indicator ----------
+Indicator mode: @1=Режим індикаторів: @1
+Invalid mode. Available: all, name, icons, none=Невірний режим. Доступні: all, name, icons, none
+Current mode: @1=Поточний режим: @1
+Available: all, name, icons, none=Доступні: all, name, icons, none
+
+# ---------- Dialog ----------
+Dialog: @1=Діалог: @1
+Reply options:=Варіанти відповіді:
+Close=Закрити
+Choose a resident from the list.=Оберіть мешканця зі списку.
+Name: @1=Ім'я: @1
+Profession: @1=Професія: @1
+Location: @1=Місце: @1
+Residents directory=Довідник мешканців
+Residents:=Мешканці:
+
+# ---------- Common buttons ----------
+Save=Зберегти
+Cancel=Скасувати
+New=Нова
+Edit=Редагувати
+Delete=Видалити
+Back=Назад
+Refresh=Оновити
+To me=До мене
+
+# ---------- Trade ----------
+NPC not found: @1=NPC не знайдено: @1
+This NPC has no wares.=У цього NPC немає товарів.
+Shop: @1=Магазин: @1
+Wares:=Товари:
+Exchange=Обміняти
+Trade complete=Обмін виконано
+Not enough: @1=Недостатньо: @1
+No room for: @1=Немає місця для: @1
+You give:=Ви даєте:
+You receive:=Ви отримуєте:
+Trade: @1=Торгівля: @1
+Back to NPC=Назад до NPC
+New item=Новий товар
+Item #@1=Товар #@1
+Item name=Назва товару
+You give (comma-separated list)=Ви даєте (список через кому)
+You receive (comma-separated list)=Ви отримуєте (список через кому)
+Single item format: mod:item 10 - 10 pieces. Without number - 1.=Формат одного предмета: mod:item 10 — 10 штук. Без числа — 1.
+Multiple items - comma-separated: default:sword_steel 1, default:sword_stone 1=Кілька предметів — через кому: default:sword_steel 1, default:sword_stone 1
+Built-in NPC cannot be edited.=Вбудований NPC редагувати не можна.
+Select an item first.=Спочатку виберіть товар.
+Enter item name.=Введіть назву товару.
+Error in "You give": @1=Помилка в «Ви даєте»: @1
+Error in "You receive": @1=Помилка в «Ви отримуєте»: @1
+empty=порожньо
+invalid format=некоректний формат
+unknown item: @1=невідомий предмет: @1
+
+# ---------- Teleport ----------
+Teleport not found.=Телепорт не знайдено.
+Not enough resources for teleport.=Недостатньо ресурсів для телепорту.
+Teleport complete: @1=Телепортацію виконано: @1
+Teleports: @1=Телепорти: @1
+Price format: mod:item 5 - 5 pieces. Empty - free.=Формат ціни: mod:item 5 — 5 штук. Порожньо — безкоштовно.
+ (free)= (безкоштовно)
+TP @1=ТП @1
+Teleport #@1=Телепорт #@1
+New teleport=Новий телепорт
+ID: tp_@1 (for dialog)=ID: tp_@1 (для діалогу)
+Name=Назва
+Price (empty - free)=Ціна (порожньо — безкоштовно)
+Format: default:mese_crystal 1 - 1 crystal.=Формат: default:mese_crystal 1 — 1 кристал.
+Empty price = free teleport.=Порожнє поле ціни = безкоштовний телепорт.
+Button below - coordinates from current position.=Кнопка нижче — координати з поточної позиції.
+Here=Я тут
+Enter name.=Введіть назву.
+Coordinates must be numbers.=Координати мають бути числами.
+Error in price: @1=Помилка в ціні: @1
+
+# ---------- Chat commands ----------
+Open NPC admin panel=Відкрити адмін-панель NPC
+Create NPC from template in front of you=Створити NPC із шаблону перед собою
+Specify def_id (e.g. template)=Вкажіть def_id (напр. template)
+NPC created: @1=NPC створено: @1
+Error: @1=Помилка: @1
+Move nearest NPC to yourself=Перемістити найближчого NPC до себе
+NPC not found nearby=NPC поруч не знайдено
+NPC moved=NPC переміщено
+No data in NPC=У NPC немає даних
+Delete nearest NPC (radius 5)=Видалити найближчого NPC (у радіусі 5)
+Delete NPC by id (works for unloaded)=Видалити NPC за id (працює і для вивантажених)
+Specify id=Вкажіть id
+Deleted: @1=Видалено: @1
+List of active NPCs (paginated)=Список активних NPC (пагінація)
+No active NPCs nearby=Немає активних NPC поруч
+Active NPCs (@1), page @2/@3=Активні NPC (@1), сторінка @2/@3
+NPC statistics=Статистика NPC
+Active: @1=Активних: @1
+Total in index: @1=Усього в індексі: @1
+Rotate nearest NPC to given angle=Повернути найближчого NPC на вказаний кут
+Example: /npc_yaw 90=Приклад: /npc_yaw 90
+NPC rotated to @1=NPC повернуто на @1
+
+# ---------- Admin panel ----------
+NPC Core - Admin panel=NPC Core — Адмін-панель
+Active NPC: @1 (total in index: @2)=Активних NPC: @1 (усього в індексі: @2)
+Templates: @1=Шаблонів: @1
+Create NPC=Створити NPC
+NPC nearby=NPC поруч
+Template editor=Редактор шаблонів
+NPC to me=NPC до мене
+Export=Експорт
+Import=Імпорт
+Indicators: @1=Індикатори: @1
+Create NPC - choose template=Створити NPC — оберіть шаблон
+* = created via editor=* = створений через редактор
+Create nearby=Створити поруч
+Active NPCs nearby (@1)=Активні NPC поруч (@1)
+Only NPCs in loaded chunks shown=Показані тільки NPC у завантажених чанках
+Edit template=Редагувати шаблон
+Delete NPC=Видалити NPC
+Select template first.=Спочатку виберіть шаблон.
+Select NPC first.=Спочатку виберіть NPC.
+NPC moved to you.=NPC переміщено до вас.
+NPC has no def.=У NPC немає def.
+
+# ---------- Editor ----------
+NPC editor=Редактор NPC
+Selected: @1=Вибрано: @1
+New NPC=Новий NPC
+Clone=Клонувати
+New NPC (@1)=Новий NPC (@1)
+Editing: @1=Редагування: @1
+Profession=Професія
+Texture=Текстура
+Description=Опис
+Dialogs=Діалоги
+Spawn=У світ
+Dialogs: @1=Діалоги: @1
+Dialog pages (sorted by ID)=Сторінки діалогу (сортуються за ID)
+Page: @1=Сторінка: @1
+New page=Нова сторінка
+Editing page: @1=Редагування сторінки: @1
+Page ID=ID сторінки
+Text=Текст
+Options=Опції
+Options: @1 / @2=Опції: @1 / @2
+Add option=Додати опцію
+Back to page=Назад до сторінки
+Option #@1=Опція #@1
+Option text=Текст опції
+Type:=Тип:
+Target (page id or action)=Ціль (id сторінки або дія)
+Available targets=Доступні цілі
+Pages: @1=Сторінки: @1
+Actions: @1=Дії: @1
+
+# ---------- Template example ----------
+NPC=NPC
+Hi.=Привіт.
+Who are you?=Хто ти?
+I'm an NPC.=Я NPC.
+Back=Назад
+
+# ---------- Editor (additional) ----------
+Name=Ім'я
+Profession=Професія
+Location=Місце
+Texture=Текстура
+Description=Опис
+Trade=Торгівля
+Teleports=Телепорти
+Save NPC first (Save button).=Спочатку збережіть NPC (кнопка «Зберегти»).
+NPC created in world: @1=NPC створено у світі: @1
+Select NPC from list first.=Спочатку виберіть NPC зі списку.
+Clone created: @1=Створено клон: @1
+Built-in NPC cannot be deleted. Copy it via Clone.=Вбудований NPC видалити не можна. Скопіюйте його через «Клонувати».
+Built-in NPC cannot be edited. Clone it.=Вбудований NPC не можна редагувати. Клонуйте його.
+Select page first.=Спочатку виберіть сторінку.
+Cannot delete the last page.=Не можна видалити останню сторінку.
+Page with this ID already exists.=Сторінка з таким ID уже існує.
+Select option first.=Спочатку виберіть опцію.
+Back to NPC=Назад до NPC
+Created: @1=Створено: @1
+Updated: @1=Оновлено: @1
+(no text)=(без тексту)
+
+# ---------- Template ----------
+Hi.=Привіт.
+Who are you?=Хто ти?
+I'm an NPC.=Я NPC.
+
+# ---------- Export/Import ----------
+Template not found: @1=Шаблон не знайдено: @1
+Failed to serialize to JSON=Не вдалося серіалізувати в JSON
+Write error: @1=Помилка запису: @1
+Saved: @1=Збережено: @1
+File name not specified=Ім'я файлу не вказано
+Invalid file name=Некоректне ім'я файлу
+File not found: @1=Файл не знайдено: @1
+Invalid JSON in file=Некоректний JSON у файлі
+File does not look like an NPC template=Файл не схожий на шаблон NPC
+Imported as: @1=Імпортовано як: @1
+Export NPC template=Експорт шаблону NPC
+Files are stored in the world folder=Файли зберігаються в теці світу
+Export=Експортувати
+Import NPC template=Імпорт шаблону NPC
+No files to import. Export something first.=Немає файлів для імпорту. Спочатку експортуйте щось.
+Choose a file to import.=Оберіть файл для імпорту.
+Import=Імпортувати
+Select template first.=Спочатку виберіть шаблон.
+Select file first.=Спочатку виберіть файл.
+Export NPC template to JSON file=Експортувати шаблон NPC у JSON-файл
+Specify def_id=Вкажіть def_id
+Import NPC template from JSON file=Імпортувати шаблон NPC з JSON-файлу
+Specify file name (e.g. custom_1.json)=Вкажіть ім'я файлу (напр. custom_1.json)
+List of exported files=Список експортованих файлів
+No exported files=Немає експортованих файлів
+
+# ---------- Editor additional ----------
+(no text)=(без тексту)

@@ -1,0 +1,229 @@
+# textdomain: npc_core
+
+# ---------- Entity ----------
+Don't hit me!=
+
+# ---------- Spawn ----------
+Player not found=
+Def not specified=
+Def not found: @1=
+Place occupied by another NPC=
+Failed to create entity=
+
+# ---------- Indicator ----------
+Indicator mode: @1=
+Invalid mode. Available: all, name, icons, none=
+Current mode: @1=
+Available: all, name, icons, none=
+
+# ---------- Dialog ----------
+Dialog: @1=
+Reply options:=
+Close=
+Choose a resident from the list.=
+Name: @1=
+Profession: @1=
+Location: @1=
+Residents directory=
+Residents:=
+
+# ---------- Common buttons ----------
+Save=
+Cancel=
+New=
+Edit=
+Delete=
+Back=
+Refresh=
+To me=
+
+# ---------- Trade ----------
+NPC not found: @1=
+This NPC has no wares.=
+Shop: @1=
+Wares:=
+Exchange=
+Trade complete=
+Not enough: @1=
+No room for: @1=
+You give:=
+You receive:=
+Trade: @1=
+Back to NPC=
+New item=
+Item #@1=
+Item name=
+You give (comma-separated list)=
+You receive (comma-separated list)=
+Single item format: mod:item 10 - 10 pieces. Without number - 1.=
+Multiple items - comma-separated: default:sword_steel 1, default:sword_stone 1=
+Built-in NPC cannot be edited.=
+Select an item first.=
+Enter item name.=
+Error in "You give": @1=
+Error in "You receive": @1=
+empty=
+invalid format=
+unknown item: @1=
+
+# ---------- Teleport ----------
+Teleport not found.=
+Not enough resources for teleport.=
+Teleport complete: @1=
+Teleports: @1=
+Price format: mod:item 5 - 5 pieces. Empty - free.=
+ (free)=
+TP @1=
+Teleport #@1=
+New teleport=
+ID: tp_@1 (for dialog)=
+Name=
+Price (empty - free)=
+Format: default:mese_crystal 1 - 1 crystal.=
+Empty price = free teleport.=
+Button below - coordinates from current position.=
+Here=
+Enter name.=
+Coordinates must be numbers.=
+Error in price: @1=
+
+# ---------- Chat commands ----------
+Open NPC admin panel=
+Create NPC from template in front of you=
+Specify def_id (e.g. template)=
+NPC created: @1=
+Error: @1=
+Move nearest NPC to yourself=
+NPC not found nearby=
+NPC moved=
+No data in NPC=
+Delete nearest NPC (radius 5)=
+Delete NPC by id (works for unloaded)=
+Specify id=
+Deleted: @1=
+List of active NPCs (paginated)=
+No active NPCs nearby=
+Active NPCs (@1), page @2/@3=
+NPC statistics=
+Active: @1=
+Total in index: @1=
+Rotate nearest NPC to given angle=
+Example: /npc_yaw 90=
+NPC rotated to @1=
+
+# ---------- Admin panel ----------
+NPC Core - Admin panel=
+Active NPC: @1 (total in index: @2)=
+Templates: @1=
+Create NPC=
+NPC nearby=
+Template editor=
+NPC to me=
+Export=
+Import=
+Indicators: @1=
+Create NPC - choose template=
+* = created via editor=
+Create nearby=
+Active NPCs nearby (@1)=
+Only NPCs in loaded chunks shown=
+Edit template=
+Delete NPC=
+Select template first.=
+Select NPC first.=
+NPC moved to you.=
+NPC has no def.=
+
+# ---------- Editor ----------
+NPC editor=
+Selected: @1=
+New NPC=
+Clone=
+New NPC (@1)=
+Editing: @1=
+Profession=
+Texture=
+Description=
+Dialogs=
+Spawn=
+Dialogs: @1=
+Dialog pages (sorted by ID)=
+Page: @1=
+New page=
+Editing page: @1=
+Page ID=
+Text=
+Options=
+Options: @1 / @2=
+Add option=
+Back to page=
+Option #@1=
+Option text=
+Type:=
+Target (page id or action)=
+Available targets=
+Pages: @1=
+Actions: @1=
+
+# ---------- Template example ----------
+NPC=
+Hi.=
+Who are you?=
+I'm an NPC.=
+Back=
+# ---------- Editor (additional) ----------
+Name=
+Profession=
+Location=
+Texture=
+Description=
+Trade=
+Teleports=
+Save NPC first (Save button).=
+NPC created in world: @1=
+Select NPC from list first.=
+Clone created: @1=
+Built-in NPC cannot be deleted. Copy it via Clone.=
+Built-in NPC cannot be edited. Clone it.=
+Select page first.=
+Cannot delete the last page.=
+Page with this ID already exists.=
+Select option first.=
+Back to NPC=
+Created: @1=
+Updated: @1=
+(no text)=
+# ---------- Template ----------
+Hi.=
+Who are you?=
+I'm an NPC.=
+
+# ---------- Export/Import ----------
+Template not found: @1=
+Failed to serialize to JSON=
+Write error: @1=
+Saved: @1=
+File name not specified=
+Invalid file name=
+File not found: @1=
+Invalid JSON in file=
+File does not look like an NPC template=
+Imported as: @1=
+Export NPC template=
+Files are stored in the world folder=
+Export=
+Import NPC template=
+No files to import. Export something first.=
+Choose a file to import.=
+Import=
+Select template first.=
+Select file first.=
+Export NPC template to JSON file=
+Specify def_id=
+Import NPC template from JSON file=
+Specify file name (e.g. custom_1.json)=
+List of exported files=
+No exported files=
+
+# ---------- Editor additional ----------
+(no text)=
