@@ -1,0 +1,26 @@
+# Editor temp files
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+*.zip
+*.tar.gz
+*.rar
+
+# Luanti / Minetest runtime files
+debug.txt
+minetest.conf
+worlds/
+cache/
+
+# IDE folders
+.vscode/
+.idea/
