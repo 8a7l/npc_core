@@ -235,7 +235,7 @@ npc_core.npc_defs.my_npc = {
     name = "My NPC",
     profession = "Blacksmith",
     location = "Village",
-    texture = "npc_m_1.png",
+    texture = "npc_1.png",
     info = "A friendly blacksmith.",
 
     pages = {
