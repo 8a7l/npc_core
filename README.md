@@ -51,7 +51,7 @@ Create, edit, and reorder dialog pages.
 
 ### Options editor
 
-![Options editor](screenshots/screenshot_options_editor.png)
+![Options editor](screenshots/screenshot_dialogs_options.png)
 
 Each page has options — either jumps to another page (`→`) or triggers
 an action (`⚡`).
