@@ -74,8 +74,6 @@ texture, and dialogs.
 - Luanti 5.0+ (Minetest 5.0+)
 - `default` mod (part of Minetest Game)
 
-Optional:
-- `dye` — for colored items in trades
 
 ## Installation
 
