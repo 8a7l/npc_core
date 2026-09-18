@@ -166,13 +166,6 @@ Available targets=Доступні цілі
 Pages: @1=Сторінки: @1
 Actions: @1=Дії: @1
 
-# ---------- Template example ----------
-NPC=NPC
-Hi.=Привіт.
-Who are you?=Хто ти?
-I'm an NPC.=Я NPC.
-Back=Назад
-
 # ---------- Editor (additional) ----------
 Name=Ім'я
 Profession=Професія
@@ -200,6 +193,7 @@ Updated: @1=Оновлено: @1
 Hi.=Привіт.
 Who are you?=Хто ти?
 I'm an NPC.=Я NPC.
+Back=Назад
 
 # ---------- Export/Import ----------
 Template not found: @1=Шаблон не знайдено: @1
