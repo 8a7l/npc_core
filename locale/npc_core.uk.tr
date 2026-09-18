@@ -15,6 +15,7 @@ Indicator mode: @1=Режим індикаторів: @1
 Invalid mode. Available: all, name, icons, none=Невірний режим. Доступні: all, name, icons, none
 Current mode: @1=Поточний режим: @1
 Available: all, name, icons, none=Доступні: all, name, icons, none
+Set nametag indicator mode above NPCs=Режим індикаторів над NPC
 
 # ---------- Dialog ----------
 Dialog: @1=Діалог: @1
