@@ -166,12 +166,6 @@ Available targets=
 Pages: @1=
 Actions: @1=
 
-# ---------- Template example ----------
-NPC=
-Hi.=
-Who are you?=
-I'm an NPC.=
-Back=
 # ---------- Editor (additional) ----------
 Name=
 Profession=
@@ -198,6 +192,7 @@ Updated: @1=
 Hi.=
 Who are you?=
 I'm an NPC.=
+Back=
 
 # ---------- Export/Import ----------
 Template not found: @1=
