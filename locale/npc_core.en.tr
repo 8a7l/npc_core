@@ -15,6 +15,7 @@ Indicator mode: @1=
 Invalid mode. Available: all, name, icons, none=
 Current mode: @1=
 Available: all, name, icons, none=
+Set nametag indicator mode above NPCs=
 
 # ---------- Dialog ----------
 Dialog: @1=
