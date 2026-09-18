@@ -274,7 +274,7 @@ end)
 minetest.register_chatcommand("npc_indicators", {
 	privs = { npc_admin = true },
 	params = "<all|name|icons|none>",
-	description = "Режим індикаторів над NPC",
+	description = S("Set nametag indicator mode above NPCs"),
 
 	func = function(name, param)
 		if not param or param == "" then
